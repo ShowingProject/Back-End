@@ -1,2 +1,9 @@
-#node.js dependeny folder
+# node.js dependeny folder
 node_modules
+
+# Webstorm config folder
+.idea
+
+# bower root folder
+public/vender
+

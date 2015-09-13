@@ -1,0 +1,10 @@
+$wrap_width: 100%;
+$si_aside_width: 0%;
+$content_area_width: $wrap_width - $si_aside_width;
+
+$nav_height: 46px;
+$nav_top_bottom_padding: 5px;
+
+$si_wrap_top_padding: ($nav_height + ($nav_top_bottom_padding * 2));
+
+$card_border_radius: 4px;

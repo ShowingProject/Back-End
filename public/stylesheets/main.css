@@ -1,0 +1,55 @@
+#si_wrap {
+  width: 100%;
+  padding-top: 56px; }
+  #si_wrap .si_aside {
+    width: 0%;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #8e8e98; }
+  #si_wrap .si_header {
+    height: 350px;
+    background-image: url("/images/main_img.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%; }
+  #si_wrap .si_content_area {
+    width: 100%;
+    padding-top: 50px; }
+    #si_wrap .si_content_area .si_content_card_area {
+      width: 100%; }
+      #si_wrap .si_content_area .si_content_card_area .si_content_card {
+        width: 18%;
+        box-sizing: border-box;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        overflow: hidden;
+        float: left;
+        margin: 0 1%; }
+        #si_wrap .si_content_area .si_content_card_area .si_content_card .card_img_area img {
+          width: 100%; }
+        #si_wrap .si_content_area .si_content_card_area .si_content_card .card_content_area {
+          border: 1px solid #E7E7E7;
+          border-top: none; }
+  #si_wrap .si_nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 46px;
+    padding: 5px 0;
+    border-bottom: 1px solid #d7d7d7;
+    background-color: white; }
+    #si_wrap .si_nav .si_logo {
+      float: left; }
+      #si_wrap .si_nav .si_logo img {
+        width: 35px;
+        margin: 5px 0 0 28px; }
+    #si_wrap .si_nav .si_icons {
+      float: right;
+      margin-top: 14px;
+      margin-right: 20px; }
+      #si_wrap .si_nav .si_icons .bell_btn {
+        color: red; }
+
+/*# sourceMappingURL=main.css.map */

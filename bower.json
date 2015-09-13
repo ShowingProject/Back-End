@@ -1,0 +1,21 @@
+{
+  "name": "Showing",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ShowingProject/Back-End",
+  "authors": [
+    "LeeHanUr <kkak1072@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "~4.4.0",
+    "jquery": "1.11.3"
+  }
+}

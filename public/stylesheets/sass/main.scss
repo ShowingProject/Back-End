@@ -1,0 +1,85 @@
+@import "variable.scss";
+
+#si_wrap{
+  width: $wrap_width;
+  padding-top: $si_wrap_top_padding;
+
+  .si_aside{
+    width: $si_aside_width;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #8e8e98;
+  }
+
+  .si_header{
+    height: 350px;
+    //border-bottom: 1px solid black;
+    background-image: url('/images/main_img.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  .si_content_area{
+    width: 100%;
+    padding-top: 50px;
+
+    .si_content_card_area{
+      width: 100%;
+
+      .si_content_card{
+        width: 18%;
+        box-sizing: border-box;
+        //padding: 12px;
+        -webkit-border-radius: $card_border_radius;
+        -moz-border-radius: $card_border_radius;
+        border-radius: $card_border_radius;
+        overflow: hidden;
+        float: left;
+        margin: 0 1%;
+
+        .card_img_area {
+          img{
+            width: 100%;
+          }
+        }
+
+        .card_content_area{
+          border: 1px solid #E7E7E7;
+          border-top: none;
+        }
+      }
+    }
+  }
+
+  .si_nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $nav_height;
+    padding: $nav_top_bottom_padding 0;
+    border-bottom: 1px solid #d7d7d7;
+    //background-color: #E71644;
+    background-color: white;
+
+    .si_logo{
+      float: left;
+
+      img{
+        width: 35px;
+        margin: 5px 0 0 28px;
+      }
+    }
+
+    .si_icons{
+      float: right;
+      margin-top: 14px;
+      margin-right: 20px;
+
+      .bell_btn{
+        color: red;
+      }
+    }
+  }
+}
