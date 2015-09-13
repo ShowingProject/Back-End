@@ -1,4 +1,14 @@
 @import "variable.scss";
+@import "mixin.scss";
+
+body{
+  font-size: 13px;
+  //font-family: ;
+}
+
+a{
+  text-decoration: none;
+}
 
 #si_wrap{
   width: $wrap_width;
@@ -28,7 +38,7 @@
       width: 100%;
 
       .si_content_card{
-        width: 18%;
+        width: 23%;
         box-sizing: border-box;
         //padding: 12px;
         -webkit-border-radius: $card_border_radius;
@@ -37,8 +47,11 @@
         overflow: hidden;
         float: left;
         margin: 0 1%;
+        margin-bottom: 15px;
 
         .card_img_area {
+          margin-bottom: -5px;
+
           img{
             width: 100%;
           }
@@ -47,6 +60,20 @@
         .card_content_area{
           border: 1px solid #E7E7E7;
           border-top: none;
+
+          .card_title{
+            padding: 13px 12px 6px;
+            font-weight: bold;
+
+            a{
+              color: black;
+            }
+          }
+
+          .card_info{
+            padding: 13px 12px 6px;
+            border-top: 1px solid #E7E7E7;
+          }
         }
       }
     }
