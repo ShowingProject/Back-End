@@ -23,11 +23,12 @@ var rolling_hall = {
     _.each(link_list, function(link){
       if (link) {
         var call_link = url_prefix + link;
-        var body_promise = crawler_util.request_url(call_link);
+
+        var body_promise = crawler_util.requestUrl(call_link);
 
         body_promise.then(function(body){
-          var $ = crawler_util.parse_html(body);
-          console.dir(iconv_util.euckr_to_utf8($(".infoArea tr td:nth-child(2) span").html()));
+          var $ = crawler_util.parseHtml(body);
+          console.log($(".infoArea tr td:nth-child(2) span").html());
         }, function(err){
           console.error(err);
         })
